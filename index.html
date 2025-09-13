@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Your Name] — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #38a169;
+      --background: #1a202c;
+      --card-bg: #2d3748;
+      --text-color: #f7fafc;
+      --muted-text: #a0aec0;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      background-color: var(--background);
+      color: var(--text-color);
+      line-height: 1.6;
+      padding: 2rem;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .header {
+      text-align: center;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid var(--card-bg);
+      margin-bottom: 2rem;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin: 0;
+    }
+
+    .header p {
+      font-size: 1.1rem;
+      color: var(--muted-text);
+      margin: 0.5rem 0 0;
+    }
+
+    .section {
+      background-color: var(--card-bg);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      font-size: 1.5rem;
+      color: var(--primary);
+      border-bottom: 1px solid #4a5568;
+      padding-bottom: 0.5rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    ul li {
+      background-color: #4a5568;
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    .project-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .project-item {
+      padding: 1rem;
+      background-color: #4a5568;
+      border-radius: 6px;
+    }
+
+    .project-item strong {
+      display: block;
+      color: #bee3f8;
+      margin-bottom: 0.25rem;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--muted-text);
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>[Your Name]</h1>
+      <p>[Your Title or Tagline]</p>
+    </div>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <p>
+        [A brief introduction about yourself, your background, and your goals. Example: "Hello! I am a [Your Year] student studying [Your Major] at [Your University]. I am a curious and hardworking individual, always eager to learn and meet new people. I am focused on building my career one step at a time, and this portfolio shows some of what I've accomplished so far. Thank you for taking a look!"]
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Skills & Hobbies</h2>
+      <ul>
+        <li>[Skill/Hobby 1]</li>
+        <li>[Skill/Hobby 2]</li>
+        <li>[Skill/Hobby 3]</li>
+        <li>[Skill/Hobby 4]</li>
+        <li>[Skill/Hobby 5]</li>
+        <li>[Skill/Hobby 6]</li>
+        <li>[Skill/Hobby 7]</li>
+        <li>[Skill/Hobby 8]</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <strong>[Project Title 1]</strong>
+          <p>[A brief description of your project and what it demonstrates.]</p>
+        </div>
+        <div class="project-item">
+          <strong>[Project Title 2]</strong>
+          <p>[A brief description of your project and what it demonstrates.]</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>My Aspiration (5 Years from Now)</h2>
+      <p>
+        [Write a paragraph about your goals for the next five years. Example: "In the next five years, I hope to become a skilled and dedicated [Your Field] professional. I want to work on projects that challenge me and help me grow, while also contributing to the community."]
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:[Your Email]">[Your Email]</a></p>
+      <p>LinkedIn: <a href="[Your LinkedIn URL]" target="_blank">[Your LinkedIn Profile]</a></p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <small>Thank You for Visiting!</small>
+  </div>
+</body>
+</html>
